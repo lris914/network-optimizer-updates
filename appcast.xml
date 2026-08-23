@@ -13,7 +13,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>3.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:releaseNotesLink sparkle:edSignature="deoePa+VpGf4fKjsrFmCR2ztn826SjOV4l7qMMa+pp+zwibq/I3ZHiskhRNHg42J0yJiY7w6KNF0acniOFw5DQ==" sparkle:length="1450">https://lris914.github.io/network-optimizer-updates/Network-Optimizer-V3.4.1-macOS-Universal.md</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/lris914/network-optimizer-updates/releases/download/v3.4.1/Network-Optimizer-V3.4.1-macOS-Universal.zip" length="4827133" type="application/octet-stream" sparkle:edSignature="P0kjRg5tKzA18r9kFVbtRg7aHbg9HuM7pn1CYT4Ue/9v3ZIKGCINwLW5EmqfkXcXPVWr9jPCMCYTDhpXAKuoCA=="/>
+            <enclosure url="https://github.com/lris914/network-optimizer-updates/releases/download/v3.4.1/Network-Optimizer-V3.4.1-macOS-Universal.zip" length="4827134" type="application/octet-stream" sparkle:edSignature="PTGhd7TwRrghJTwIsgBDg94jnRoQQoYz2jZaHv+1xu+95WckWkq5l8cm33F5fP2qS0Rxgq7+E6KqRPbW5o9LAQ=="/>
         </item>
         <item>
             <title>3.4.0</title>
@@ -28,6 +28,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: zQTYj6XkQXY/TyfPh2GVAj4fg32gg5CSvFtcAoR3wA+JgD7s/SlcP7Y1XA7X1BeCyKJxyWCyJ9+41HjixBk7CA==
+edSignature: onnF3EhmqdKyO+sg/9XwtudgsVwJPFjk3AuYISNBKeDFbpwEkboOtuaHZt3UdTj1SUvAJpStwfDzjwz7onArBA==
 length: 2504
 -->
