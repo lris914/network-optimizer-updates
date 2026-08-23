@@ -1,8 +1,20 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>网络优化器</title>
+        <item>
+            <title>3.4.1</title>
+            <pubDate>Sun, 23 Aug 2026 23:04:19 +0800</pubDate>
+            <link>https://github.com/lris914/network-optimizer-updates/releases/latest</link>
+            <sparkle:version>341</sparkle:version>
+            <sparkle:shortVersionString>3.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink sparkle:edSignature="deoePa+VpGf4fKjsrFmCR2ztn826SjOV4l7qMMa+pp+zwibq/I3ZHiskhRNHg42J0yJiY7w6KNF0acniOFw5DQ==" sparkle:length="1450">https://lris914.github.io/network-optimizer-updates/Network-Optimizer-V3.4.1-macOS-Universal.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/lris914/network-optimizer-updates/releases/download/v3.4.1/Network-Optimizer-V3.4.1-macOS-Universal.zip" length="4827133" type="application/octet-stream" sparkle:edSignature="P0kjRg5tKzA18r9kFVbtRg7aHbg9HuM7pn1CYT4Ue/9v3ZIKGCINwLW5EmqfkXcXPVWr9jPCMCYTDhpXAKuoCA=="/>
+        </item>
         <item>
             <title>3.4.0</title>
             <pubDate>Sun, 23 Aug 2026 22:34:33 +0800</pubDate>
@@ -11,10 +23,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:releaseNotesLink sparkle:edSignature="NhADNbl9aIxSpxwnT9Hg+/hq22CKF7ucpoy6m+OusDT8CDxfOcJz92iIsenFRnA7jgLaD0yxtoYLLKOEASbjCA==" sparkle:length="673">https://lris914.github.io/network-optimizer-updates/Network-Optimizer-V3.4.0-macOS-Universal.md</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/lris914/network-optimizer-updates/releases/download/v3.4.0/Network-Optimizer-V3.4.0-macOS-Universal.zip" length="5338948" type="application/octet-stream" sparkle:edSignature="RkTBD/5nTRfET586Zt8Z7LWx7cFK7QHhDh8SVdMfLK3tzyZQz7P36nzq8/b0h7ndMjGE+LyCcB5ypj94GOK2BQ=="></enclosure>
+            <enclosure url="https://github.com/lris914/network-optimizer-updates/releases/download/v3.4.0/Network-Optimizer-V3.4.0-macOS-Universal.zip" length="5338948" type="application/octet-stream" sparkle:edSignature="RkTBD/5nTRfET586Zt8Z7LWx7cFK7QHhDh8SVdMfLK3tzyZQz7P36nzq8/b0h7ndMjGE+LyCcB5ypj94GOK2BQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: V6JVkiCdZxlvgoWNqS1V3AMWX/HP4hbPtMhktDy3/KlbjgxiUegXatoxDEesqNyr/NEikQccqQOBRil2h44lDA==
-length: 1479
+</rss>
+<!-- sparkle-signatures:
+edSignature: zQTYj6XkQXY/TyfPh2GVAj4fg32gg5CSvFtcAoR3wA+JgD7s/SlcP7Y1XA7X1BeCyKJxyWCyJ9+41HjixBk7CA==
+length: 2504
 -->

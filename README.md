@@ -6,21 +6,28 @@
 
   <p>
     <a href="https://github.com/lris914/network-optimizer-updates/releases/latest">
-      <img src="https://img.shields.io/badge/下载最新版-网络优化器%20V3.4.0-1677ff?style=for-the-badge&logo=github" alt="下载网络优化器 V3.4.0">
+      <img src="https://img.shields.io/badge/下载最新版-网络优化器%20V3.4.1-1677ff?style=for-the-badge&logo=github" alt="下载网络优化器 V3.4.1">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-13%2B-111111?style=flat-square&logo=apple" alt="macOS 13+">
     <img src="https://img.shields.io/badge/架构-Apple%20Silicon%20%7C%20Intel-4c8bf5?style=flat-square" alt="Universal">
-    <img src="https://img.shields.io/badge/当前版本-V3.4.0-20a464?style=flat-square" alt="V3.4.0">
+    <img src="https://img.shields.io/badge/当前版本-V3.4.1-20a464?style=flat-square" alt="V3.4.1">
     <img src="https://img.shields.io/badge/在线更新-Sparkle%20EdDSA-7c3aed?style=flat-square" alt="Sparkle EdDSA">
   </p>
 </div>
 
 ---
 
-## V3.4.0 新功能
+## V3.4.1 更新内容
+
+- **设置操作更清晰**：使用 macOS 原生侧边栏选择；未修改时只显示“完成”，修改后才显示“取消”和“应用并重新检测”。
+- **在线更新更完整**：可设置每日、每周或每两周检查，并可选择发现新版本后自动下载；安装前仍由用户确认，安装后自动替换并重新打开应用。
+- **界面文案统一**：删除历史要求和开发者内部说明，所有描述改为面向普通用户的通用表达。
+- **体积与资源优化**：移除无效逻辑并压缩可执行文件，在不减少功能的情况下缩小应用和安装包。
+
+## V3.4.0 主要功能
 
 - **多地区节点分类**：自动识别日本、香港、台湾、新加坡、美国、韩国、英国、德国、法国、加拿大、澳大利亚等常见地区。
 - **按地区严格筛选**：选择日本就只检测和使用日本节点；选择香港就只检测和使用香港节点，不会跨地区静默回退。
@@ -42,12 +49,12 @@
 
 ### [前往 Releases 下载最新版](https://github.com/lris914/network-optimizer-updates/releases/latest)
 
-1. 下载 `Network-Optimizer-V3.4.0-macOS-Universal-Installer.dmg`。
+1. 下载 `Network-Optimizer-V3.4.1-macOS-Universal-Installer.dmg`。
 2. 打开 DMG，将“网络优化器”拖入“Applications（应用程序）”。
 3. 覆盖旧版时，在 macOS 提示中选择“替换”。应用名称、Bundle ID 和原有设置都会保留。
 4. 当前版本使用临时应用签名，没有 Apple Developer ID 公证；首次打开若被拦截，请在 Finder 中右键应用并选择“打开”。
 
-V3.3.2 及更早版本必须手动安装一次 V3.4.0。之后可通过“设置 → 软件更新 → 立即检查更新”升级。
+V3.3.2 及更早版本必须手动安装一次 V3.4.0 或更高版本。之后可通过“设置 → 软件更新 → 检查并安装更新”升级。
 
 ## 安全与隐私边界
 
@@ -67,7 +74,7 @@ V3.3.2 及更早版本必须手动安装一次 V3.4.0。之后可通过“设置
 
 ## 关于这个仓库
 
-本仓库只公开安装包、版本说明和在线更新清单，不公开应用源代码。应用源码保存在独立的私有仓库中。
+本仓库提供安装包、版本说明和在线更新清单，供应用下载和安全更新使用。
 
 ---
 
