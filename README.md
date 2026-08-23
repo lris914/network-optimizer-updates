@@ -42,7 +42,7 @@
 
 ### [前往 Releases 下载最新版](https://github.com/lris914/network-optimizer-updates/releases/latest)
 
-1. 下载 `Network-Optimizer-V3.4.0-macOS-Universal.dmg`。
+1. 下载 `Network-Optimizer-V3.4.0-macOS-Universal-Installer.dmg`。
 2. 打开 DMG，将“网络优化器”拖入“Applications（应用程序）”。
 3. 覆盖旧版时，在 macOS 提示中选择“替换”。应用名称、Bundle ID 和原有设置都会保留。
 4. 当前版本使用临时应用签名，没有 Apple Developer ID 公证；首次打开若被拦截，请在 Finder 中右键应用并选择“打开”。
