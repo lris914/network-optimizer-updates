@@ -1,12 +1,12 @@
 <div align="center">
   <img src="assets/network-optimizer-icon.png" width="144" alt="网络优化器图标">
-  <h1>网络优化器 V4.4.0</h1>
+  <h1>网络优化器 V4.5.0</h1>
   <p><strong>面向 macOS 与 Windows 的 Mihomo / Clash 网络诊断、地区优选与自动恢复工具</strong></p>
   <p>自动发现本机控制端口和订阅节点地区，只在你选择的地区内检测、优选并恢复代理连接。</p>
 
   <p>
     <a href="https://github.com/lris914/network-optimizer-updates/releases/latest">
-      <img src="https://img.shields.io/badge/下载最新版-网络优化器%20V4.4.0-1677ff?style=for-the-badge&logo=github" alt="下载网络优化器 V4.4.0">
+      <img src="https://img.shields.io/badge/下载最新版-网络优化器%20V4.5.0-1677ff?style=for-the-badge&logo=github" alt="下载网络优化器 V4.5.0">
     </a>
   </p>
 
@@ -14,18 +14,19 @@
     <img src="https://img.shields.io/badge/macOS-13%2B-111111?style=flat-square&logo=apple" alt="macOS 13+">
     <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4?style=flat-square&logo=windows11" alt="Windows 10/11">
     <img src="https://img.shields.io/badge/架构-Universal%20%7C%20x64%20%7C%20ARM64-4c8bf5?style=flat-square" alt="支持架构">
-    <img src="https://img.shields.io/badge/当前版本-V4.4.0-20a464?style=flat-square" alt="V4.4.0">
+    <img src="https://img.shields.io/badge/当前版本-V4.5.0-20a464?style=flat-square" alt="V4.5.0">
   </p>
 </div>
 
 ---
 
-## V4.4.0 更新
+## V4.5.0 更新
 
-- 新增优化前实测、推荐结果实测，以及成功率、延迟和抖动提升量。
-- 明确区分建议改动与实际改动；推荐配置未应用时不会显示成已经优化。
-- 保存 DNS、MTU 和活动网卡快照，支持恢复优化前状态或系统自动配置。
-- 回滚必须经过管理员确认，并会先检查当前活动网卡是否仍与快照一致。
+- 新增“应用推荐配置并复测”：用户确认后实际修改推荐 DNS，并仅在链路实测明确需要时调整 MTU。
+- 自动展示 DNS、解析次数、DNS 波动、下载和上传的“优化前 → 优化后”真实结果。
+- 不再使用“成功率 +N 个百分点”，直接显示 `0/9 → 9/9 次`等原始数据。
+- 恢复入口改为独立的“恢复与回滚”区域，支持恢复优化前配置或系统自动配置。
+- macOS 首屏重排为平衡的双列布局；Windows 新增上传测速，并保持 x64/ARM64 同步。
 
 ## 平台功能
 
@@ -36,22 +37,22 @@
 | 客户端识别 | Nano、Clash Verge Rev、Clash Party、FlClash、Clash Nyanpasu、ClashX 系列 | Nano、Clash Verge Rev、Clash Party、FlClash、Clash Nyanpasu、Clash for Windows 兼容模式 |
 | 地区与节点 | 多地区分类、严格筛选、最优节点与失败回滚 | 多地区分类、严格筛选、最优节点与失败回滚 |
 | 后台监测 | LaunchAgent、系统通知、系统提示音 | 系统托盘、Windows 通知与系统提示音 |
-| 本地网络测速 | macOS 原生 `networkQuality` | 轻量 HTTP 下载测速与基础延迟 |
+| 本地网络优化 | 原生下载/上传测速、DNS/MTU 应用、自动复测与回滚 | 轻量下载/上传测速、DNS/MTU 应用、自动复测与回滚 |
 | 软件更新 | Sparkle EdDSA 签名检查、下载与确认安装 | 检查 GitHub Releases，并匹配当前架构安装包 |
 
 ## 下载与安装
 
 ### macOS
 
-- [下载 Universal DMG 安装包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.4.0/Network-Optimizer-V4.4.0-macOS-Universal-Installer.dmg)
-- [下载 Universal ZIP 更新包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.4.0/Network-Optimizer-V4.4.0-macOS-Universal.zip)
+- [下载 Universal DMG 安装包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.0/Network-Optimizer-V4.5.0-macOS-Universal-Installer.dmg)
+- [下载 Universal ZIP 更新包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.0/Network-Optimizer-V4.5.0-macOS-Universal.zip)
 
 打开 DMG，将“网络优化器”拖入“Applications（应用程序）”。覆盖旧版时选择“替换”，原有设置会保留。当前安装包使用临时应用签名，没有 Apple Developer ID 公证。
 
 ### Windows
 
-- [下载 Windows x64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.4.0/Network-Optimizer-V4.4.0-Windows-x64.zip) — 绝大多数 Intel / AMD 电脑
-- [下载 Windows ARM64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.4.0/Network-Optimizer-V4.4.0-Windows-ARM64.zip) — Snapdragon 等 ARM Windows 电脑
+- [下载 Windows x64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.0/Network-Optimizer-V4.5.0-Windows-x64.zip) — 绝大多数 Intel / AMD 电脑
+- [下载 Windows ARM64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.0/Network-Optimizer-V4.5.0-Windows-ARM64.zip) — Snapdragon 等 ARM Windows 电脑
 
 解压后运行 `NetworkOptimizer.exe`。当前版本没有商业代码签名，Windows 可能显示“未知发布者”。
 
@@ -68,7 +69,7 @@
 
 - 只访问本机回环接口或本机 Unix Socket。
 - 不读取、上传、刷新或改写代理订阅。
-- 不修改 DNS、TUN、路由、规则或系统代理。
+- 只有用户点击应用或恢复按钮并通过系统管理员确认后，才会修改当前活动网卡的 DNS/MTU；不修改 TUN、路由、规则或系统代理。
 - 不扫描局域网，不下载或替换 Mihomo 内核。
 - 不选择当前所选地区以外的节点。
 - 自动重启只处理当前用户的已识别客户端界面进程，不结束 Mihomo 核心或特权服务。
