@@ -1,12 +1,12 @@
 <div align="center">
   <img src="assets/network-optimizer-icon.png" width="144" alt="网络优化器图标">
-  <h1>网络优化器 V4.5.3</h1>
+  <h1>网络优化器 V4.5.4</h1>
   <p><strong>面向 macOS 与 Windows 的 Mihomo / Clash 网络诊断、地区优选与自动恢复工具</strong></p>
   <p>自动发现本机控制端口和订阅节点地区，只在你选择的地区内检测、优选并恢复代理连接。</p>
 
   <p>
     <a href="https://github.com/lris914/network-optimizer-updates/releases/latest">
-      <img src="https://img.shields.io/badge/下载最新版-网络优化器%20V4.5.3-1677ff?style=for-the-badge&logo=github" alt="下载网络优化器 V4.5.3">
+      <img src="https://img.shields.io/badge/下载最新版-网络优化器%20V4.5.4-1677ff?style=for-the-badge&logo=github" alt="下载网络优化器 V4.5.4">
     </a>
   </p>
 
@@ -14,20 +14,18 @@
     <img src="https://img.shields.io/badge/macOS-13%2B-111111?style=flat-square&logo=apple" alt="macOS 13+">
     <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4?style=flat-square&logo=windows11" alt="Windows 10/11">
     <img src="https://img.shields.io/badge/架构-Universal%20%7C%20x64%20%7C%20ARM64-4c8bf5?style=flat-square" alt="支持架构">
-    <img src="https://img.shields.io/badge/当前版本-V4.5.3-20a464?style=flat-square" alt="V4.5.3">
+    <img src="https://img.shields.io/badge/当前版本-V4.5.4-20a464?style=flat-square" alt="V4.5.4">
   </p>
 </div>
 
 ---
 
-## V4.5.3 更新
+## V4.5.4 更新
 
-- 区分本地断网、证据不足、当前节点异常和候选池大面积不可用，故障提示更明确。
-- 刷新状态会并发执行一次轻量本地测速，避免重复初始化和串行等待。
-- 自动恢复采用可取消、带退避的周期复测；只有启用自动恢复时才允许切换节点，关闭时只给诊断和推荐。
-- 成功切换后回读实际生效节点，再原子更新“当前节点”；失败或回滚不会误报成功。
-- Windows 联网检测使用四个唯一国内/全球主机并验证预期响应，避免全球端点不可达时误报整机断网。
-- Windows 主页在 1120×760 和 980×680 下无需强制纵向滚动；ARM64 实机与 x64/ARM64 制品均完成发布验收。
+- 修复 Clash Verge Rev 本地配置的 Unix Socket 控制接口发现。
+- 从活动运行配置读取实际代理端口与通用策略组。
+- 支持单节点和多地区识别；缺少所选地区候选时给出准确提示。
+- Windows 同步正式版本号，既有功能行为不变。
 
 ## 平台功能
 
@@ -45,15 +43,15 @@
 
 ### macOS
 
-- [下载 Universal DMG 安装包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.3/Network-Optimizer-V4.5.3-macOS-Universal-Installer.dmg)
-- [下载 Universal ZIP 更新包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.3/Network-Optimizer-V4.5.3-macOS-Universal.zip)
+- [下载 Universal DMG 安装包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.4/Network-Optimizer-V4.5.4-macOS-Universal-Installer.dmg)
+- [下载 Universal ZIP 更新包](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.4/Network-Optimizer-V4.5.4-macOS-Universal.zip)
 
 打开 DMG，将“网络优化器”拖入“Applications（应用程序）”。覆盖旧版时选择“替换”，原有设置会保留。当前安装包使用临时应用签名，没有 Apple Developer ID 公证。
 
 ### Windows
 
-- [下载 Windows x64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.3/Network-Optimizer-V4.5.3-Windows-x64.zip) — 绝大多数 Intel / AMD 电脑
-- [下载 Windows ARM64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.3/Network-Optimizer-V4.5.3-Windows-ARM64.zip) — Snapdragon 等 ARM Windows 电脑
+- [下载 Windows x64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.4/Network-Optimizer-V4.5.4-Windows-x64.zip) — 绝大多数 Intel / AMD 电脑
+- [下载 Windows ARM64 版本](https://github.com/lris914/network-optimizer-updates/releases/download/v4.5.4/Network-Optimizer-V4.5.4-Windows-ARM64.zip) — Snapdragon 等 ARM Windows 电脑
 
 解压后运行 `NetworkOptimizer.exe`。当前版本没有商业代码签名，Windows 可能显示“未知发布者”。
 
