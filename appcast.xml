@@ -6,6 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>网络优化器</title>
         <item>
+            <title>4.6.1</title>
+            <pubDate>Fri, 28 Aug 2026 12:24:21 +0800</pubDate>
+            <link>https://github.com/lris914/network-optimizer-updates/releases/latest</link>
+            <sparkle:version>461</sparkle:version>
+            <sparkle:shortVersionString>4.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink sparkle:edSignature="t2HSDXHqjT0Fz21MYTmREVU6vV5fQTneW1smspqihsoN97VKCoXU+DIN3W5sWgAuAvRShgDZI4naoThOAosDBQ==" sparkle:length="1013">https://lris914.github.io/network-optimizer-updates/Network-Optimizer-V4.6.1-macOS-Universal.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/lris914/network-optimizer-updates/releases/download/v4.6.1/Network-Optimizer-V4.6.1-macOS-Universal.zip" length="4916369" type="application/octet-stream" sparkle:edSignature="ixD0bmV2IaVb5QaHh0eKpezgjto6mQGCc5X/DxFK7MNFKe/zZqyePQnrpaQ8sLagkOFe+WfwBt/cXzMJp7/YCA=="/>
+        </item>
+        <item>
             <title>4.6.0</title>
             <pubDate>Thu, 27 Aug 2026 21:30:04 +0800</pubDate>
             <link>https://github.com/lris914/network-optimizer-updates/releases/latest</link>
@@ -138,6 +148,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: TKedNjRqdqKEosyWuqaw8An/EBLfvJxuzX3Kqq4edCySd54lIH22MK4/JuVLax02EsNvV9llObS4QLoXi80ICQ==
-length: 13858
+edSignature: PAovtGR0w5HPKxyx+CEtRhIXVo6Ng41KSNZZYMxpQ0NHLivPQQLF5VZL4BT81OCmD5h51ZVSca292Z+uqpw0Ag==
+length: 14891
 -->
